@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <h1>CSS Selectors</h1>
+    <p>A CSS selector selects the HTML element(s) you want to style.</p>
+    <div class="selectors">
+        <h2>CSS Selectors</h2>
+        <p>CSS selectors are used to "find" (or select) the HTML elements you want to style.</p>
+        <p>We can divide CSS selectors into five categories:</p>
+        <ul>
+            <li>Simple selectors (select elements based on name, id, class)</a>
+            </li>
+            <li><a href="https://www.w3schools.com/css/css_combinators.asp">Combinator selectors (select elements based on a specific relationship between them)</a></li>
+            <li><a href="https://www.w3schools.com/css/css_pseudo_classes.asp">Pseudo-class selectors (select elements based on a certain state)</a></li>
+            <li><a href="https://www.w3schools.com/css/css_pseudo_elements.asp">Pseudo-elements selectors (select and style a part of an element)</a></li>
+            <li><a href="https://www.w3schools.com/css/css_attribute_selectors.asp">Attribute selectors (select elements based on an attribute or attribute value)</a></li>
+        </ul>
+    </div>
+    <hr>
+    <h2 class="selector">The CSS <span>element</span> Selector</h2>
+    <p>The element selector selects HTML elements based on the element <span>name</span> (body, p, h1, h5, a, div, etc.).</p>
+    <hr>
+    <h2 class="selector">The CSS <span>id</span> Selector</h2>
+    <p>The id selector uses the id attribute of an HTML element to select a specific element.</p>
+    <p>The id of an element is unique within a page, so the id selector is used to select one unique element!</p>
+    <p>To select an element with a specific id, write a hash <span>(#)</span> character, followed by the id of the element.</p>
+    <hr>
+    <h2 class="selector">The CSS <span>class</span> Selector</h2>
+    <p>The class selector selects HTML elements with a specific class attribute.</p>
+    <p>To select elements with a specific class, write a period <span>(.)</span> character, followed by the class name.</p>
+    <hr>
+
+    <h2 id="universal">The CSS <span>Universal</span> Selector</h2>
+    <p>The universal selector <span>(*)</span> selects all HTML elements on the page.</p>
+
+    <div>
+        <p>Use our <a href="https://www.w3schools.com/cssref/trysel.asp" target="_blank">CSS Selector Tester</a> to demonstrate the different selectors. </p>
+    </div>
+    <hr>
+
+    <div id="gallery">
+        <div>
+            <h3>CSS Syntax</h3>
+            <img src="./resources/regla_css.jpg" alt="">
+            <img src="./img/regla_css.jpg">
+        </div>
+        <div>
+            <h3>All CSS Simple Selectors</h3>
+            <img src="./resources/selectors.png" alt="">
+        </div>
+    </div>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th><b>Selector</b></th>
+                <th><b>Example</b></th>
+                <th><b>Example description</b></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="color1">
+                <td><u>#id</u></td>
+                <td>#firstname</td>
+                <td>Selects the element with id="firstname"</td>
+            </tr>
+            <tr>
+                <td><u>.class</u></td>
+                <td>.intro</td>
+                <td>Selects all elements with class="intro"</td>
+            </tr>
+            <tr class="color2">
+                <td><u>element.class</u></td>
+                <td>p.intro</td>
+                <td>Selects only
+                    < p> elements with class="intro"</td>
+            </tr>
+            <tr>
+                <td><u>*</u></td>
+                <td>*</td>
+                <td>Selects all elements</td>
+            </tr>
+            <tr class="color3">
+                <td><u>element</u></td>
+                <td>p</td>
+                <td>Selects all
+                    < p> elements</td>
+            </tr>
+            <tr>
+                <td><u>element,element,...</u></td>
+                <td>div, p</td>
+                <td>Selects all
+                    < div> elements and all
+                        < p> elements</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>

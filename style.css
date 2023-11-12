@@ -1,0 +1,120 @@
+/*style.css*/
+
+
+/* Regla 1 */
+
+* {
+    font-family: "oswald", Arial, sans-serif;
+}
+
+
+/* Regla 2 */
+
+body {
+    margin: 0;
+    padding: 0 20%;
+}
+
+
+/* Regla 3 */
+
+h1 {
+    text-decoration: underline;
+    color: darkcyan;
+    text-align: center;
+}
+
+
+/* Regla 4 */
+
+.selector {
+    color: lightcyan;
+}
+
+
+/* Regla 5 */
+
+.selectors {
+    padding: 5%;
+    border: 1px solid darkcyan;
+    border-radius: 5px;
+}
+
+
+/* Regla 6 */
+
+#universal {
+    color: lightgoldenrodyellow;
+}
+
+
+/* Regla 7 */
+
+h2.selector,
+h2#universal {
+    background-color: darkcyan;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+
+/* Regla 8 */
+
+span {
+    font-weight: 900;
+    background-color: black;
+    color: white;
+}
+
+
+/* Regla 9 */
+
+li>a {
+    text-decoration: none;
+}
+
+
+/* Regla 10 */
+
+h3 {
+    background-color: rgba(0, 139, 139, 0.529);
+    padding: 0.5%;
+    border-radius: 5px;
+}
+
+
+/* Regla 11 */
+
+#gallery div {
+    width: 100%;
+}
+
+
+/* Regla 12 */
+
+img {
+    width: 100%;
+    border: 1px solid darkcyan;
+    border-radius: 5px;
+}
+
+table {
+    width: 910px;
+    height: 500px;
+}
+
+.color1 {
+    background-color: gray;
+}
+
+.color2 {
+    background-color: gray;
+}
+
+.color3 {
+    background-color: gray;
+}
+
+td {
+    text-align: center;
+}
